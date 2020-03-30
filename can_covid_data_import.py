@@ -2,6 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 from secret import conn_str
 
+# This restores the same behavior as before.
 engine = create_engine(conn_str)
 schema_name = "external"
 table_name = "covid_canada"

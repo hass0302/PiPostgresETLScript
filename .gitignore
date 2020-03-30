@@ -146,3 +146,5 @@ static
 # secrets
 secret.py
 
+# my venv
+/devpython
